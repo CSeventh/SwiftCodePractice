@@ -25,12 +25,12 @@ someInt = []
 //print(someInt)
 
 var threeDoubles = Array(repeating: 0.1, count: 3)
-//print(threeDoubles)
+print(threeDoubles)
 
 var anDoubles = Array(repeating: 5.1, count: 3)
-//print(anDoubles)
+print(anDoubles)
 var doubles = threeDoubles + anDoubles
-//print(doubles)
+print(doubles)
 
 var shop:[String] = ["eggs","fruits"]
 
@@ -83,18 +83,3 @@ for item in shop {
 for (index, value) in shop.enumerated(){
     print("第\(index+1)项，值为\(value)")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
